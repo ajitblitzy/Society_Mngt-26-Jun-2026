@@ -1,5 +1,46 @@
 # Society_Mngt-26-Jun-2026
 
+You are tasked with adding a new frontend feature to [Project Name] while minimizing changes to the existing codebase. This feature development should be focused on the user interface layer, making **only** the necessary additions and modifications required to implement the specific frontend functionality.
+
+**IMPORTANT: Make only the changes that are absolutely necessary to implement this frontend feature. Do not refactor, optimize, or modify existing code unless it is directly required for the new feature to work. Your goal is to add functionality with minimal disruption to the existing system.**
+
+**FRONTEND OVERVIEW**
+
+- **What's the specific frontend feature being added?** *Describe what the feature does from a user interface perspective and which users it benefits.*
+- **What user interactions or workflows will this enable?** *Detail the specific user actions, flows, and expected behaviors.*
+- **What pages/views/components will contain this feature?** *Identify where in the application this feature will appear.*
+
+**DESIGN SYSTEM & COMPONENTS**
+
+- **What design system components should be used?** *List specific components with exact filepaths (e.g., `src/components/Button/Button.tsx`).*
+- **Which component variants, props, or configurations should be applied?** *Specify exact usage patterns from your design system documentation.*
+- **What new components need to be created?** *List any custom components not available in the existing design system.*
+- **How should components be composed together?** *Describe the component hierarchy and relationships.*
+
+**API INTEGRATION & DATA FLOW**
+
+- **What endpoint definitions will this feature use?** *List specific endpoints with their paths and methods.*
+- **How should UI actions map to API calls?** *Explicitly define which user interactions trigger which endpoints.*
+- **What's the data flow pattern?** *Specify when to fetch, how to cache, when to refresh, and state management approach.*
+- **How should API errors be handled in the UI?** *Define error states, user messaging, and recovery flows.*
+
+**SYSTEM BOUNDARIES**
+
+- **What boundaries should we set for Blitzy during this frontend addition?** *Define limits (e.g., "only add/modify files in /src/features/[feature-name]" or "do not modify shared components").*
+- **What existing UI functionality must remain completely untouched?** *Identify critical UI features that must continue working exactly as they do today.*
+- **What's explicitly IN and OUT of scope for this frontend feature?** *Clarify boundaries to prevent scope creep.*
+
+**MINIMAL CHANGE CLAUSE & DISCIPLINE GUIDELINES**
+
+- **IMPORTANT: Make only the changes that are absolutely necessary to implement this frontend feature. Do not refactor, optimize, or modify existing code unless it is directly required for the new feature to work. Your goal is to add functionality with minimal disruption to the existing system.**
+- **IMPORTANT: Follow these guidelines to ensure focused frontend development:**
+    - Make only the minimal necessary changes to implement the feature
+    - Do not modify components that are not directly related to this feature
+    - Do not refactor existing components unless absolutely required
+    - Do not change existing component interfaces or props unless specified
+    - Isolate new code in dedicated files/components when possible
+    - Use existing design system components wherever possible before creating new ones
+    - When multiple implementation approaches exist, choose the one that requires the least modification to existing code
 This project is for Society process management excluding security.
 Added line
 
@@ -69,3 +110,4 @@ You are tasked with refactoring [Project Name] from its current implementation t
 - Do not enhance or optimize code beyond the requirements of the migration
 - Isolate new implementations in dedicated files/modules when possible
 - Document all technology-specific changes with clear comments.
+- 
