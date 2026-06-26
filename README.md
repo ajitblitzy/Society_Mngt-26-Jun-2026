@@ -2,4 +2,4 @@
 
 Adding line to resync tech spec.
 
-Second line
+Second line to test the branch locking for the thrid proejct
